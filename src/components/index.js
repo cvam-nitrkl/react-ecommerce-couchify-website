@@ -1,40 +1,26 @@
-import FeaturedProducts from './FeaturedProducts'
-import Navbar from './Navbar'
-import CartButtons from './CartButtons'
-import Footer from './Footer'
-import Sidebar from './Sidebar'
-import Hero from './Hero'
-import Services from './Services'
-import Contact from './Contact'
-import Loading from './Loading'
-import Error from './Error'
-import ProductImages from './ProductImages'
-import AddToCart from './AddToCart'
-import Filters from './Filters'
-import ProductList from './ProductList'
-import Sort from './Sort'
-import Stars from './Stars'
-import CartContent from './CartContent'
-import PageHero from './PageHero'
-import StripeCheckout from './StripeCheckout'
-export {
-  FeaturedProducts,
-  Navbar,
-  CartButtons,
-  Footer,
-  Sidebar,
-  Hero,
-  Services,
-  Contact,
-  Loading,
-  Error,
-  ProductImages,
-  AddToCart,
-  Filters,
-  ProductList,
-  Sort,
-  Stars,
-  CartContent,
-  PageHero,
-  StripeCheckout,
-}
+export { default as FormInput } from './FormInput'
+export { default as SubmitBtn } from './SubmitBtn'
+export { default as Header } from './Header'
+export { default as Navbar } from './Navbar'
+export { default as Navlinks } from './Navlinks'
+export { default as Hero } from './Hero'
+export { default as ErrorElement } from './ErrorElement'
+export { default as FeaturedProducts } from './FeaturedProducts'
+export { default as ProductsGrid } from './ProductsGrid'
+export { default as PaginationContainer } from './PaginationContainer'
+export { default as ProductsContainer } from './ProductsContainer'
+export { default as Filters } from './Filters'
+export { default as ProductsList } from './ProductsList'
+export { default as FormSelect } from './FormSelect'
+export { default as FormRange } from './FormRange'
+export { default as Loading } from './Loading'
+export { default as CartItemList } from './CartItemList'
+export { default as CartTotals } from './CartTotals'
+export { default as CartItem } from './CartItem'
+export { default as CheckoutForm } from './CheckoutForm'
+export { default as PaginationComplexContainer } from './PaginationComplexContainer'
+export { default as OrderItem } from './OrderItem'
+export { default as OrdersList } from './OrdersList'
+
+export { default as FormCheckbox } from './FormCheckbox'
+export { default as SectionTitle } from './SectionTitle'
